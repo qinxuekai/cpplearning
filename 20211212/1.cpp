@@ -25,10 +25,12 @@ int main(){
 			if(c3<1){
 				continue;
 			}
-			cout<<"a="<<a<<" b="<<b<<" c="<<c<<endl;
-			//cout<<"a1="<<a1<<" b1="<<b1<<" c1="<<c1<<endl;
-			//cout<<"a2="<<a2<<" b2="<<b2<<" c2="<<c2<<endl;
-			//cout<<"a3="<<a3<<" b3="<<b3<<" c3="<<c3<<endl;
+			if(a3==b3&&b3==c3){
+				cout<<"a="<<a<<" b="<<b<<" c="<<c<<endl;
+				//cout<<"a1="<<a1<<" b1="<<b1<<" c1="<<c1<<endl;
+				//cout<<"a2="<<a2<<" b2="<<b2<<" c2="<<c2<<endl;
+				//cout<<"a3="<<a3<<" b3="<<b3<<" c3="<<c3<<endl;	
+			}
 		}
 	}
 		
